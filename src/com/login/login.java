@@ -10,6 +10,7 @@ import javax.servlet.http.HttpSession;
 
 @WebServlet("/login")
 public class login extends HttpServlet {
+//	This is just a test code written to see staging.
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String uname = request.getParameter("uname");
